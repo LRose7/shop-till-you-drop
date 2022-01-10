@@ -1,6 +1,8 @@
 import React from 'react';
 import { ShoppingCart } from '@material-ui/icons';
 import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+
 import { toggleCartHidden } from '../../redux/cart/cart.actions';
 import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 
@@ -22,8 +24,8 @@ const mapDispatchToProps = dispatch => ({
 });
 
 // mapStateToProps is a function you use to provide the store data to your component
-const mapStateToProps = (state) => ({
-    itemCount: selectCartItemsCount(state)
+const mapStateToProps = createStructuredSelector ({
+    itemCount: selectCartItemsCount
 });
 
 
