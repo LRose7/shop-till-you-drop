@@ -16,9 +16,13 @@ import './header.styles.scss';
 const Header = ({ currentUser, hidden }) => {
     return (
         <div className="header">
-            <Link to='/' className="logo-container">
-                <img src={ Logo } className="logo" alt="logo" />
-            </Link>
+           
+            <div className="header-title">
+                <Link to='/' className="logo-container">
+                    <img src={ Logo } className="logo" alt="logo" />
+                </Link>
+                Shop Till You Drop
+            </div>
             <div className="options">
                 <Link to="/shop" className="option">
                     SHOP
