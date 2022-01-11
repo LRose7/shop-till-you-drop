@@ -23,14 +23,14 @@ const INITIAL_STATE = {
         },
         {
             title: 'womens',
-            imageUrl: 'https://www.prodirectselect.com/productimages/V3_1_Gallery_4/V3_1_Gallery_4_0319797.jpg',
+            imageUrl: 'https://images.hdqwalls.com/wallpapers/urban-women-model-town-sitting-47.jpg',
             size: 'large',
             id: 4,
             linkUrl: 'shop/womens'
         },
         {
             title: 'mens',
-            imageUrl: 'https://nextluxury.com/wp-content/uploads/mens-fashion-urban-style.jpg',
+            imageUrl: 'https://observer.com/wp-content/uploads/sites/2/2015/01/bfa_11194_1364964.jpg?quality=80&strip',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
