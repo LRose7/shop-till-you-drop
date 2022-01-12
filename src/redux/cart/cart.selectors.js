@@ -1,4 +1,4 @@
-import { createSelector, createStructuredSelector } from 'reselect';
+import { createSelector } from 'reselect';
 
 // a function that gets the whole state and just returns a slice of it
 const selectCart = state => state.cart;
